@@ -19,10 +19,10 @@ const HomePage = () => {
             <CarouselSection />
             <Layer4 />
             <PreBanner />
-            {/* <Layer6 /> */}
-            {/* <Layer7 /> */}
-            {/* <Layer8 /> */}
-            {/* <Footer /> */}
+            <Layer6 />
+            <Layer7 />
+            <Layer8 />
+            <Footer />
         </section>
     )
 }
