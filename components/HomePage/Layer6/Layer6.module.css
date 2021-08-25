@@ -76,3 +76,23 @@
     position: relative;
     /* background-color: blue; */
 }
+
+@media screen and (max-width:872px){
+    .right{
+        display: none;
+        flex: 1;
+        height: 100%;
+        width: 100%;
+        background-color: pink;
+        /* display: flex; */
+        justify-content: center;
+        align-items: center;
+    }
+    .imgDiv{
+        height: 100px;
+        width: 150px;
+        position: relative;
+        /* background-color: blue; */
+    }
+
+}
