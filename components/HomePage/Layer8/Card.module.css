@@ -1,0 +1,6 @@
+.card{
+    height: 60px;
+    width: 130px;
+    background-color: orange;
+    position: relative;
+}

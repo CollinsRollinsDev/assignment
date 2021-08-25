@@ -1,0 +1,78 @@
+.container{
+    margin-top: 30px;
+    height: 300px;
+    width: 100%;
+    padding: 0 0 0 10%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.left{
+    flex: 1;
+    height: 100%;
+    width: 100%;
+    padding-right: 20%;
+    /* background-color: orange; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.safety{
+    font-size: 18px;
+    font-weight: 700;
+}
+.showUp{
+    width: 80%;
+    font-size: 30px;
+    font-weight: 700;
+    color: black;
+    margin-top: 10px;
+   
+}
+.narration{
+    font-size: 14px;
+    margin-top: 20px;
+}
+.subArea{
+    width: 100%;
+    height: 60px;
+    /* background-color: red; */
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+    column-gap: 30px;
+    align-items: center;
+}
+.subArea button{
+    height: 50px;
+    width: 150px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: transparent;
+    background-color: purple;
+    color: white;
+}
+.subArea div{
+    font-size: 14px;
+    display: flex;
+    justify-content: flex-start;
+    column-gap: 20px;
+    align-items: center;
+}
+.right{
+    flex: 1;
+    height: 100%;
+    width: 100%;
+    /* background-color: pink; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgDiv{
+    height: 250px;
+    width: 400px;
+    position: relative;
+    /* background-color: blue; */
+}

@@ -1,0 +1,119 @@
+.container{
+    height: 130px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 10%;
+    background-color: rgb(1, 2, 71);
+}
+.ready{
+    flex: 1;
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 25px;
+    font-weight: 700;
+    color: white;
+}
+.searches{
+    flex: 2;
+    height: 100%;
+    width: 100%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-around;
+    padding: 0 2%;
+    align-items: center;
+    column-gap: 20px;
+}
+.searches input{
+    flex: 1;
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    border-radius: 5px;
+    padding: 0 10%;
+    border-style: solid;
+    border-color: transparent;
+
+
+}
+.btnDiv{
+    flex: 1;
+    height: 100%;
+    width: 100%;
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btnDiv button{
+    height: 40px;
+    width: 50%;
+    background-color: white;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: transparent;
+    font-weight: 900;
+    cursor: pointer;
+    color: purple;
+}
+.btnDiv button:hover{
+
+}
+
+@media screen and (max-width:872px){
+    .container{
+        height: fit-content;
+        flex-direction: column;
+        display: block;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding-left: 2%;
+    }
+
+
+    .ready{
+        flex: unset;
+        margin-top: 0;
+    }
+    .searches{
+        flex: unset;
+        min-height: 50px;
+        width: 99%;
+        display: block;
+        margin-top: 30px;
+        padding: 0 2%;
+        flex-direction: column;
+        align-items: flex-start;
+        row-gap: 20px;
+        /* background-color: green; */
+    }
+    .searches input{
+        flex: 1;
+        height: 50px !important;
+        width: 100%;
+        margin-top: 20px;
+        background-color: white;
+        border-radius: 5px;
+        padding: 0 10%;
+        border-style: solid;
+        border-color: transparent;
+    }
+
+    .btnDiv{
+        flex: 1;
+        margin-top: 40px;
+        justify-content: flex-start;
+    }
+    .btnDiv button{
+        height: 45px;
+        width: 50%;
+
+    }
+}

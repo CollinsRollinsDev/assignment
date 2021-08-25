@@ -1,0 +1,55 @@
+.cardContainer{
+    height: 450px !important;
+    width: 90% !important;
+    /* background-color: rgb(218, 218, 218); */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.pictureDiv{
+    flex: 2;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+    /* background-color: red; */
+}
+.pictureDiv .pictureCarrier{
+    height: 65px;
+    width: 65px;
+    border-radius: 100%;
+    /* background-color: purple; */
+    position: relative;
+}
+.testimonialDiv{
+    flex: 5;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    text-align: center;
+    /* background-color: blue; */
+    font-size: 19px;
+}
+.subscription{
+    flex: 1;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /* background-color: orange; */
+}
+.subscription div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    height: 100%;
+    width: 100%;
+}
+.position{
+    font-style: italic;
+}

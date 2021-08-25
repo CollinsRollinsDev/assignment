@@ -1,0 +1,142 @@
+.container{
+    width: 100%;
+    height: 850px;
+    /* background-color: red; */
+    display: flex;
+}
+.container section{
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+
+}
+.left{
+    /* background-color: orange; */
+
+}
+
+.leftContentDiv{
+    height: 420px;
+    width: 100%;
+    padding: 0 5% 0 10%;
+    /* background-color: white; */
+    margin-top: 100px;
+}
+.left h1{
+    font-size: 16px;
+}
+.left h2{
+    font-size: 70px;
+}
+.btnDiv{
+    height: 100px;
+    width: 100%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 20px;
+}
+.btnDiv button{
+    height: 42px;
+    width: 150Px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: transparent;
+    background-color: white;
+
+}
+.btnDiv .btn1{
+    background-color: rgb(139, 57, 177);
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+}
+.btnDiv .btn1:hover{
+    background-color: rgb(129, 39, 170);
+    
+}
+.btnDiv .btn2{
+    font-size: 17px;
+    font-weight: 600;
+    border-width: 1px !important;
+    border-style: solid;
+    border-color: rgb(31, 31, 31);
+
+}
+.btnDiv .btn2:hover{
+    background-color: rgb(212, 212, 212);
+}
+.right{
+    position: relative;
+    display: flex;
+    justify-content: center !important;
+    align-items: flex-start !important;
+}
+.right .divImg1{
+    height: 650px;
+    width: 492px;
+    margin-top: 50px;
+    position: relative;
+}
+.right .divImg2{
+    width: 492px;
+    height: 325px;
+    position: absolute;
+    top: 60%;
+    left: 0;
+
+}
+
+@media screen and (max-width:872px){
+    .container{
+        width: 100%;
+        height: fit-content;
+        /* background-color: red; */
+        flex-direction: column;
+        row-gap: 200px;
+        display: flex;
+    }
+    .leftContentDiv{
+        height: 420px;
+        width: 100%;
+        padding: 0 5% 0 10%;
+        /* background-color: blue; */
+        margin-top: 50px;
+        text-align: center;
+    }
+    .left h1{
+        font-size: 17px;
+    }
+    .left h2{
+        font-size: 45px;
+    }
+    .btnDiv{
+        height: 140px;
+        margin-top: 30px;
+        flex-direction: column;
+        column-gap: unset;
+        row-gap: 20px;
+    }
+    .right{
+        position: relative;
+        display: flex;
+        margin-top: -200px;
+        justify-content: center !important;
+        align-items: flex-start !important;
+    }
+    .right .divImg1{
+        height: 600px;
+        width: 95%;
+        margin-top: 0;
+        position: relative;
+    }
+    .right .divImg2{
+     display: none;
+    
+    }
+    
+
+}

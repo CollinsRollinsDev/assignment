@@ -1,0 +1,215 @@
+.container{
+    height: 1300px;
+    width: 100%;
+    background-color: rgb(227, 202, 250);
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-top: 100px;
+    align-items: flex-start;
+    padding-bottom: 100px;
+}
+.top{
+    flex: 3;
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.container .top .leftside{
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 0 0 0 10%;
+    height: 100%;
+    width: 100%;
+    /* background-color: blue; */
+
+}
+.narration{
+    flex: 1;
+    height: 100%;
+    width: 80%;
+    /* background-color: orange; */
+}
+.narration .first{
+    font-size: 16px;
+    font-weight: 700;
+
+}
+.narration .second, .narration .third{
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 10px;
+    
+}
+.narration .fourth{
+    font-size: 16px;
+    margin-top: 20px;
+}
+.selection{
+    flex: 2;
+    height: 100%;
+    width: 80%;
+    /* background-color: white; */
+}
+.container .top .rightside{
+    flex: 1;
+    height: 100%;
+    width: 100%;
+    /* background-color: pink; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom{
+    flex: 3;
+    height: 100%;
+    width: 100%;
+    /* background-color: green; */
+}
+.box1, .box2, .box3{
+    height: 40px;
+    width: 60%;
+    background-color: transparent;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* background-color: red; */
+    margin-top: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.iconDiv{
+    height: 100%;
+    width: 100%;
+    flex: 1;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.textDiv{
+    height: 100%;
+    width: 100%;
+    flex: 9;
+    /* background-color: gold; */
+    display: flex;
+    justify-content: flex-start;
+    padding: 0 0 0 5%;
+    align-items: center;
+    font-weight: 700;
+    font-size: 13px;
+}
+.box1{
+    /* border-color: purple; */
+    border-style: solid;
+    border-width: 1px;
+}
+.box1:hover{
+    text-decoration: underline;
+
+}
+.getRide{
+    background-color: rgb(139, 57, 177);
+    color: white;
+    border-style: solid;
+    border-color: transparent;
+    margin-top: 30px;
+    font-size: 17px;
+    height: 42px;
+    width: 150Px;
+    border-radius: 20px;
+    font-weight: 600;
+}
+.getRide:hover{
+    background-color: rgb(129, 39, 170);
+}
+.imgSide{
+    height: 80px;
+    width: 140px;
+    /* background-color: green; */
+    margin-top: 20px;
+    position: relative;
+}
+.joinText{
+    font-size: 13px;
+}
+.imgCovering{
+    height: 450px;
+    width: 55%;
+    /* background-color: tomato; */
+    position: relative;
+}
+.sub{
+    font-size: 12px;
+    margin-left: 10%;
+}
+@media screen and (max-width:872px){
+    .container{
+        height: fit-content;
+        width: 100%;
+        /* background-color: red; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .top{
+        flex: 3;
+        height: 100%;
+        width: 100%;
+        /* background-color: red; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .container .top .leftside{
+        flex: 1;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        padding: 2%;
+    
+    }
+    .narration{
+        height: fit-content;
+        width: 100%;
+        /* background-color: pink; */
+        margin-top: 20px;
+        text-align: center;
+    }
+    .selection{
+        flex: 2;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 20px;
+        row-gap: 20px;
+        align-items: center;
+        /* background-color: white; */
+    }
+    .imgCovering{
+        height: 400px;
+        width: 60%;
+        /* background-color: tomato; */
+        position: relative;
+    }
+    .sub{
+        font-size: 12px;
+        margin-left: 0;
+        padding: 2%;
+        text-align: center;
+    }
+}

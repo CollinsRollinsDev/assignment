@@ -1,0 +1,30 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+button.rec-dot{
+  background-color: white;
+  border-color: black;
+  box-shadow: 0 0 1px 3px black;
+}
+button.rec-dot:hover, button.rec-dot:active, button.rec-dot:focus  {
+  background-color: black;
+  box-shadow: 0 0 1px 3px black;
+
+
+}
