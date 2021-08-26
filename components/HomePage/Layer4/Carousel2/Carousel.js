@@ -8,7 +8,26 @@ const Carousel2 = () => {
         {    width: 768, itemsToShow: 3},
     ]
 
+    const sources = {
+        one: `/car2.png`,
+        two: `/car3.png`,
+        three: `/car4.png`,
+        four: `/car5.png`,
+        five: `/car6.png`,
+        six: `/car7.png`,
+        seven: `/car8.png`,
+    }
 
+    const headings = {
+        one: `Rentals`,
+        two: `Bikes & Scooters`,
+        three: `Shared Rides`,
+        four: `Wait & Save`,
+        five: `Lyft`,
+        six: `Priority Pickup`,
+        seven: `Preferred Mode`,
+    }
+    
 
     return (
         <section className={styles.container}>
@@ -34,21 +53,13 @@ const Carousel2 = () => {
 //   onNextStart={onNextStart}
   disableArrowsOnEnd={false}
             >
-                {/* <Card testimony={testimonies.one} src={sources.one} name={names.one}   />
-                <Card testimony={testimonies.two} src={sources.two} name={names.two}   />
-                <Card testimony={testimonies.three} src={sources.three} name={names.three}   />
-                <Card testimony={testimonies.four} src={sources.four} name={names.four}   /> */}
-                <Card />
-                <Card />
-                <Card />
-                <Card />
-                <Card />
-                <Card />
-                <Card />
-                <Card />
-                <Card />
-                <Card />
-                <Card />
+                <Card src={sources.one} headings={headings.one} />
+                <Card src={sources.two} headings={headings.two}/>
+                <Card src={sources.three} headings={headings.three}/>
+                <Card src={sources.four} headings={headings.four}/>
+                <Card src={sources.five} headings={headings.five}/>
+                <Card src={sources.six} headings={headings.six}/>
+                <Card src={sources.seven} headings={headings.seven}/>
             </Carousel>
         
             </section>

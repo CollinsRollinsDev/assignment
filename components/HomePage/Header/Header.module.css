@@ -152,6 +152,9 @@
            justify-content: center;
            align-items: center;
        }
+       .mobileMenu svg{
+           cursor: pointer;
+       }
        .logoArea{
         flex: 0.2;
     }

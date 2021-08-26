@@ -1,6 +1,6 @@
 .card{
     height: 60px;
     width: 130px;
-    background-color: orange;
     position: relative;
+    /* box-shadow: 1px 1px 3px black, -1px -1px 3px black; */
 }

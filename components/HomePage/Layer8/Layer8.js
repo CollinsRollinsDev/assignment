@@ -23,14 +23,20 @@ const onPrevStart = (currentItem, nextItem) => {
 
 const breakpoints = [
     {    width: 1, itemsToShow: 1},
-    {    width: 768, itemsToShow: 6},
+    {    width: 768, itemsToShow: 5},
 ]
 
 const sources = {
-    // one: `/testimonyDp1.webp`,
-    // two: `/testimonyDp2.webp`,
-    // three: `/testimonyDp3.webp`,
-    // four: `/testimonyDp4.webp`
+    one: `/airbnb.png`,
+    two: `/ascension.jpg`,
+    three: `/bluecross.png`,
+    four: `/concur.png`,
+    // five: `/delta.png`,
+    six: `/logist.jpg`,
+    seven: `/salesforce.jpg`,
+    eight: `/slack.jpg`,
+    nine: `/usc.png`,
+    // ten: `/concur.png`
 }
 
   return (
@@ -69,12 +75,12 @@ const sources = {
                 <Card src={sources.two}  />
                 <Card src={sources.three}  />
                 <Card src={sources.four}   />
-                <Card src={sources.four}   />
-                <Card src={sources.four}   />
-                <Card src={sources.four}   />
-                <Card src={sources.four}   />
-                <Card src={sources.four}   />
-                <Card src={sources.four}   />
+                {/* <Card src={sources.five}   /> */}
+                <Card src={sources.six}   />
+                <Card src={sources.seven}   />
+                <Card src={sources.eight}   />
+                <Card src={sources.nine}   />
+                {/* <Card src={sources.four}   /> */}
             </Carousel>
         </section>
     </section>

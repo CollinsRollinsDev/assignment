@@ -3,11 +3,18 @@
 import styles from "./Header.module.css";
 import Image from "next/image";
 import { useState } from "react";
+import Menu from "./Menu";
 
 const Header = () => {
   const [search, setSearch] = useState("");
+  const [cancel, setCancel] = useState(false);
+
+  const handleOpen = () => {
+    !cancel ? setCancel(true) : setCancel(false);
+  }
 
   return (
+    <>
     <section className={styles.container}>
       <div className={styles.logoArea}>
         <div>
@@ -55,7 +62,7 @@ const Header = () => {
         <div className={styles.fifth}>SIGN UP</div>
       </section>
       <section className={styles.mobileMenu}>
-        <svg
+        <svg onClick={handleOpen}
           xmlns="http://www.w3.org/2000/svg"
           width="20"
           height="20"
@@ -65,6 +72,12 @@ const Header = () => {
         </svg>
       </section>
     </section>
+
+      {
+         cancel ? <Menu  setCancel={setCancel} /> : null
+      }
+
+    </>
   );
 };
 

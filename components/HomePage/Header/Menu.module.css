@@ -1,0 +1,91 @@
+.contaner * {
+    box-sizing: border-box;
+}
+.container{
+    display: none
+}
+@media screen and (max-width:872px){
+.container{
+    min-height: 100vh;
+    width: 100%;
+    display: block;
+    background-color: whitesmoke;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+/* .wrapper{
+    height: ;
+} */
+.header{
+    height: 50px;
+    width: 100%;
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+}
+.container .header .logo{
+    flex: 2;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* background-color: green; */
+}
+.items2{
+    flex: 1;
+    height: 100%;
+    width: 100%;
+    /* background-color: orange; */
+    display: flex;
+    justify-content: space-around;
+    padding: 0 2%;
+    align-items: center;
+}
+.items2 button{
+    background-color: transparent;
+    height: 40px;
+    width: 100px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: purple;
+}
+.items2 svg{
+    cursor: pointer;
+}
+.items2 svg:hover{
+    cursor: pointer;
+}
+.main{
+    margin-top: 5px;
+    height: fit-content;
+    width: 100%;
+    padding: 2%;
+
+}
+.driveArea{
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+    border-style: solid;
+    padding-bottom: 20px;
+    border-color: transparent transparent rgb(211, 209, 209) transparent;
+}
+.head{
+    font-size: 20px;
+    font-weight: 700;
+    font-style:italic;
+}
+.driveArea div{
+    cursor: pointer;
+}
+.driveArea div:hover{
+    color: purple;
+}
+}
