@@ -1,3 +1,7 @@
+.container * {
+    box-sizing: border-box;
+}
+
 .container{
     height: 600px;
     width: 100%;
@@ -100,4 +104,35 @@
     align-items: center;
     column-gap: 20px;
     font-size: 11px;
+}
+
+@media screen and (max-width:872px){
+
+
+    .container{
+        height: fit-content;
+        margin-top: 40px;
+    }
+    .top{
+        flex: 7;
+        height: 100%;
+        width: 100%;
+        /* background-color: red; */
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+        justify-content: space-around;
+        align-items: center;
+        column-gap: 20px;
+        padding: 2% 10%;
+    }
+    .top .first, .top .second, .top .third, .top .end{
+        flex: 1;
+        height: 100%;
+        width: 100%;
+        /* background-color: blue; */
+    }
+    .friend{
+        font-size: 8px;
+    }
 }

@@ -7,3 +7,10 @@
     top: 0;
      */
 }
+
+@media screen and (max-width:872px){
+    .cards{
+        height: 200px !important;
+        width: 250px !important;
+    }
+}

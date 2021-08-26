@@ -136,18 +136,37 @@
 }
 @media screen and (max-width:872px){
     .container{
-    min-width: 100vw;
+    width: 100%  !important;
+    height: 50px;
+    border-top-color: transparent;
     }
     .menuArea{
         display: none;
        }
        .mobileMenu{
            display: flex;
-           flex: 0.3;
+           flex: 0.4;
            height: 100%;
            width: 100%;
            /* background-color: red; */
            justify-content: center;
            align-items: center;
        }
+       .logoArea{
+        flex: 0.2;
+    }
+    .logoArea div{
+        height: 50px;
+        width: 90px;
+    }
+
+
+    
+.searchArea{
+    flex: 1.5;
+    margin-left: 6%;
+   }
+   .searchArea section{
+       height: 70%;
+   }
 }

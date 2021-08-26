@@ -209,15 +209,17 @@
         justify-content: flex-start;
         align-items: flex-start;
         padding: 0 5%;
+        padding: unset;
         column-gap: 20px;
     }
     .childLadder2{
         height: 100%;
         width: 100%;
         flex: 1;
-        /* background-color: crimson; */
-        padding: 0 0 0 13%;
         text-align: left;
+        padding: unset;
+        padding: 0 0 0 8%;
+        box-sizing: border-box;
     }
   
     .btnDiv{

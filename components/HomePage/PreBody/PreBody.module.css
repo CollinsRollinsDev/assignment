@@ -92,7 +92,7 @@
 
 @media screen and (max-width:872px){
     .container{
-        width: 100%;
+        width: 100% !important;
         height: fit-content;
         /* background-color: red; */
         flex-direction: column;
@@ -102,7 +102,7 @@
     .leftContentDiv{
         height: 420px;
         width: 100%;
-        padding: 0 5% 0 10%;
+        padding: unset;
         /* background-color: blue; */
         margin-top: 50px;
         text-align: center;

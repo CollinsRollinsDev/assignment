@@ -160,6 +160,8 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        padding: 2% 4% 2% 2%;
+        box-sizing: border-box;
     }
     .top{
         flex: 3;
