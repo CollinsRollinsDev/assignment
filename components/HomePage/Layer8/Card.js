@@ -5,7 +5,7 @@ const Card = ({src}) => {
 
     return (
         <section className={styles.card}>
-          <Image src={src} alt='' layout='fill' />
+          <Image src={src} alt='' layout='fill' quality={50}/>
          
         </section>
     )

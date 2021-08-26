@@ -14,6 +14,7 @@ const Card = ({src, headings}) => {
                             src={src}
                             alt=""
                             layout="fill"
+                            quality={50}
                         />
                     </div>
                 </div>
